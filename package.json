@@ -1,0 +1,27 @@
+{
+  "name": "time-is-money",
+  "version": "1.0.0",
+  "description": "Convert currency values in to time",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Normally/time-is-money-package.git"
+  },
+  "keywords": [
+    "time",
+    "money",
+    "conversion",
+    "wage",
+    "salary",
+    "income"
+  ],
+  "author": "Nic Mulvaney & Basil Safwat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Normally/time-is-money-package/issues"
+  },
+  "homepage": "https://github.com/Normally/time-is-money-package#readme"
+}

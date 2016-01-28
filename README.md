@@ -20,7 +20,7 @@ var arr = TIM.convert([
 		'Some glasses for 1d and a tie for 3hr' ]
 
 ```
-## options
+## Options
 ```
 TIM.options(
 		{

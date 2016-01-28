@@ -21,7 +21,7 @@
 		};
 
 		var options = function(obj){
-			settings = _merge(_defaults, obj || {});
+			settings = _merge(settings, obj || {});
 		};
 
 	 	var offsets = {

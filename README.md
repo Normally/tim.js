@@ -3,15 +3,15 @@ Conversion package for Time is Money
 
 ## Usage
 ```
-var TIM = require('./index.js');
+var Tim = require('./index.js');
 
-var str = TIM.convert("Some shoes for £300 and a coat for £20");
+var str = Tim.convert("Some shoes for £300 and a coat for £20");
 
 // str -> 'Some shoes for 2wk and a coat for 1d'
 ```
 ## Arrays
 ```
-var arr = TIM.convert([
+var arr = Tim.convert([
 	"Some shoes for £300 and a coat for £20.00",
 	"Some glasses for £10 and a tie for £5.00"
 ]);
@@ -22,7 +22,7 @@ var arr = TIM.convert([
 ```
 ## Options
 ```
-TIM.options(
+Tim.options(
 		{
 			yearlyWage: 500,
 			monthlyWage: 200,
